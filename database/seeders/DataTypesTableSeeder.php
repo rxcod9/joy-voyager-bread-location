@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'locations',
                 'display_name_singular' => __('joy-voyager-bread-location::seeders.data_types.location.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-location::seeders.data_types.location.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-location voyager-location',
                 'model_name'            => 'Joy\\VoyagerBreadLocation\\Models\\Location',
                 // 'policy_name'           => 'Joy\\VoyagerBreadLocation\\Policies\\LocationPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadLocation\\Http\\Controllers\\VoyagerBreadLocationController',
